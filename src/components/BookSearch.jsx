@@ -33,7 +33,7 @@ const BookSearch = () => {
     setIsbn(e.target.value);
   };
 
-  
+
   {/* backend part */}
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -60,7 +60,7 @@ const BookSearch = () => {
 
 
   return (
-    <section className="min-h-screen px-3 grid place-items-center bg-green-300">
+    <section className="min-h-screen px-3 grid place-items-center bg-white">
       <form
         onSubmit={handleSubmit}
         className="bg-white shadow-lg md:p-4 p-2 rounded-lg w-[90%] md:w-[70%] h-[80%] bg-[url('Book-lovely-hd-wallpaper.jpg')] bg-cover bg-center"

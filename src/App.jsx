@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -12,6 +13,20 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+=======
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+
+function App() {
+  return (
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+>>>>>>> 2d9ba3fc5e5659c217e991a12b8b1636c12c8d31
   );
 }
 

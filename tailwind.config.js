@@ -8,5 +8,9 @@ export default {
     extend: {},
   },
   plugins: [],
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 2d9ba3fc5e5659c217e991a12b8b1636c12c8d31
